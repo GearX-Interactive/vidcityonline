@@ -1,4 +1,4 @@
-VidCity 17
+VidCity 2000
 ===========
 
 VidCity 2000 [Play Alpha](http://avixsoft.github.io/vidcity17/)<br>
