@@ -1137,7 +1137,7 @@ V3D.Base.prototype = {
 			else this.commercialGeo[i] = o['c_'+i].geometry;
 			//this.commercialGeo[i].applyMatrix(m);
 		}
-
+c
 		i = 12;
 		while(i--){
 			if(i<10) this.houseGeo[i] = o['rh_0'+i].geometry;
@@ -3004,13 +3004,13 @@ HUB.Base.prototype = {
     intro:function(){
 
     	this.full = document.createElement('div'); 
-    	this.full.style.cssText ='position:absolute; top:0px; left:0px; width:100%; height:100%; pointer-events:none; display:block; background:rgba(102,102,230,1); ' //+ this.degrade();
+    	this.full.style.cssText ='position:absolute; top:0px; left:0px; width:100%; height:100%; pointer-events:none; display:block; background:rgba(0,0,0,1); ' //+ this.degrade();
 
         this.fullMid = document.createElement('div'); 
         this.fullMid.style.cssText ='position:absolute; top:10px; left:50%; width:300px; height:300px; margin-left:-150px; pointer-events:none; display:block;';
 
         this.title = document.createElement('div');
-        this.title.innerHTML = "VidCity 17";
+        this.title.innerHTML = "VidCity";
     	this.title.style.cssText = 'position:absolute; font-size:44px; top:50%; left:0; margin-top:-30px; width:300px; height:60px; pointer-events:none; text-align:center;';
         
         this.subtitle = document.createElement('div');
